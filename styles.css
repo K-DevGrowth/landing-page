@@ -13,7 +13,6 @@ html {
     padding: 80px 0;
 }
 
-
 #hero-section .header-container p {
     margin: 10px 0;
     width: 80%;
@@ -155,4 +154,56 @@ footer {
 
 .bg-gray {
     background-color: #e5e7eb;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+main,
+header,
+footer {
+    padding: 0 20px;
+}
+
+@media (max-width: 450px) {
+    .flex-box {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    .header-container {
+        padding: 20px !important;
+        text-align: center;
+    }
+
+    .header-container div p {
+        width: 100% !important;
+    }
+
+    .squares {
+        margin: 0 auto !important;
+    }
+
+    .item p {
+        margin: 5px auto 10px;
+    }
+
+    #quotes {
+        padding: 20px;
+    }
+
+    #quotes blockquote {
+        font-size: 16px;
+    }
+
+    #quotes p {
+        font-size: 16px;
+    }
 }
